@@ -1,0 +1,8 @@
+deployment:
+  role: data_plane
+  role_data_plane:
+    config_provider: yaml
+apisix:
+  extra_lua_path: "/usr/local/apisix/custom-plugins/?.lua"
+plugins: 
+  - hello-world
