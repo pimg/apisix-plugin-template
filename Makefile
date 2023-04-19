@@ -20,4 +20,4 @@ dev-reload:
 	docker exec -it apache-apisix-standalone apisix reload
 
 dev-shell:
-	docker exec -t apache-apisix-standalone /bin/bash
+	docker exec -it apache-apisix-standalone /bin/bash
